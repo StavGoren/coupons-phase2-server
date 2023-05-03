@@ -89,8 +89,6 @@ public class CouponsLogic {
 
     private boolean validateId(int id) throws ServerException {
         ValidationsUtils.validateNumber(id);
-
-        throw new ServerException(ErrorType.DATA_NOT_FOUND, " please make sure you entered a correct id");
     }
 
 
