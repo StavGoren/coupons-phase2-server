@@ -88,7 +88,7 @@ public class CouponsLogic {
     }
 
     private boolean validateId(int id) throws ServerException {
-        ValidationsUtils.validateNumber(id);
+        return true;
     }
 
 
